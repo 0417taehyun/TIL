@@ -23,4 +23,10 @@
         <td> 머신 러닝, 웹, ORM(Obejct Relational Mapping), 그리고 함수형 프로그래밍에서의 지연(Lazy) </td>
         <td> 2022. 10. 17 </td>
     </tr>
+    <tr>
+        <td> <a href="./2022/11/01/01/README.md"> 우아한 테크 코스 5기 프리코스 1주차를 마치며 </a> </td>
+        <td> 우아한 테크 코스 5기 프리코스 1주차를 진행한 소감 </td>
+        <td> 2022. 11. 01 </td>
+    </tr>
+
 </table>
