@@ -1,32 +1,11 @@
 ---
-title: "게으름과 부지런함(Lazy vs Eager)"
-description: "머신 러닝, 웹, ORM(Obejct Relational Mapping), 그리고 함수형 프로그래밍에서의 지연(Lazy)"
-date: "2022-10-17"
+title: 게으름과 부지런함(Lazy vs Eager)
+subtitle: 머신 러닝, 웹, ORM(Obejct Relational Mapping), 그리고 함수형 프로그래밍에서의 지연(Lazy)
+date: 2022-10-17
+comments: true
 ---
 
 # 게으름과 부지런함(Lazy vs Eager)
-
-## 목차
-
-- [도입](#도입)
-- [머신러닝에서의 게으름과 부지런함](#머신러닝에서의-게으름과-부지런함)
-  - [머신러닝의 학습과 테스트](#머신러닝의-학습과-테스트)
-  - [게으른 학습(Lazy Learning)](#게으른-학습lazy-learning)
-  - [즉각적인 학습(Eager Learning)](#즉각적인-학습eager-learning)
-- [웹에서의 게으름과 부지런함](#웹에서의-게으름과-부지런함)
-  - [지연 로딩(Lazy Loading)](#지연-로딩lazy-loading)
-  - [구현 방법](#구현-방법)
-- [ORM에서의 게으름과 부지런함](#orm에서의-게으름과-부지런함)
-  - [ORM(Object-Relational Mapping)](#ormobject-relatinoal-mapping)
-  - [장고(Django)의 쿼리셋(QuerySet)](#쟝고django의-쿼리셋queryset)
-  - [N+1 문제](#n1-문제)
-  - [기타 다른 프레임워크](#기타-다른-프레임워크)
-- [함수형 프로그래밍에서의 게으름과 부지런함](#함수형-프로그래밍에서의-게으름과-부지런함)
-  - [함수형 프로그래밍(Functional Programming)](#함수형-프로그래밍functional-programming)
-  - [지연 평가(Lazy Evaluation)](#지연-평가lazy-evaluation)
-  - [피보나치 수열](#피보나치-수열)
-- [결론](#결론)
-- [참고](#참고)
 
 ## 도입
 
@@ -164,7 +143,7 @@ def user_view(request: WSGIRequest):
 
 ### 지연 평가(Lazy Evaluation)
 
-지연 평가란 말 그대로 평가를 지연시키는 방법으로 여기서 평가는 곧 쉽게 어떤 로직에 대한 연산이라 생각하면 된다. 예를 들어 아래와 같이 파이썬 언어로 작성된 1부터 10,000,000까지의 자연수의 제곱을 배열에 저장하는 반복문이 있다고 가정해보자. (관련해서는 [01.py](./code/01.py) 소스 코드를 확인해서 테스트해볼 수 있다.)
+지연 평가란 말 그대로 평가를 지연시키는 방법으로 여기서 평가는 곧 쉽게 어떤 로직에 대한 연산이라 생각하면 된다. 예를 들어 아래와 같이 파이썬 언어로 작성된 1부터 10,000,000까지의 자연수의 제곱을 배열에 저장하는 반복문이 있다고 가정해보자. (관련해서는 [01.py](../../../../../code/2022/10/17/01/01.py) 소스 코드를 확인해서 테스트해볼 수 있다.)
 
 ```Python
 eager_evaluation: list[int] = []
@@ -200,7 +179,7 @@ List Comprehension:  1.133929967880249
 
 #### 다이나믹 프로그래밍(Dynamic Programming, DP)
 
-반복문을 활용해 피보나치 수열을 구현하면 아래와 같다. 이러한 알고리즘은 한 번 계산이 완료된 부분을 재계산하는 비효율이 발생하지 않게 하기 때문에 다이나믹 프로그래밍(Dynamic Programming, DP)이라 한다. (관련해서는 [02.py](./code/02.py) 소스 코드를 확인해서 테스트해볼 수 있다.)
+반복문을 활용해 피보나치 수열을 구현하면 아래와 같다. 이러한 알고리즘은 한 번 계산이 완료된 부분을 재계산하는 비효율이 발생하지 않게 하기 때문에 다이나믹 프로그래밍(Dynamic Programming, DP)이라 한다. (관련해서는 [02.py](../../../../../code/2022/10/17/01/02.py) 소스 코드를 확인해서 테스트해볼 수 있다.)
 
 ```Python
 f1, f2 = 1, 1

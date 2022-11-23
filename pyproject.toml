@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "TIL"
+version = "1"
+description = "What I Leaned Today"
+authors = ["0417taehyun <0417taehyun@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.10"
+mkdocs-material = {git = "https://{GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

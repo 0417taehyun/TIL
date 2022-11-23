@@ -1,2 +1,9 @@
 # Mac OS
 .DS_Store
+
+# mkdocs
+site
+
+# Cache
+__pycache__
+Buffer/

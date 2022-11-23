@@ -1,0 +1,56 @@
+site_name: What I Learned Today
+site_description: 학습한 내용을 공유합니다.
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+  custom_dir: overrides/
+
+plugins:
+  - meta
+  - search
+  - tags
+  - blog:
+      blog_dir: .
+      post_date_format: full
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+  - abbr
+
+nav:
+  - index.md
+  - 2022:
+      - 10월:
+          - 17일:
+              - 게으름과 부지런함(Lazy vs Eager): 2022/10/17/01/README.md
+  - 2023:
+      - 1월
