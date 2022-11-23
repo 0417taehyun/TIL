@@ -45,6 +45,7 @@ markdown_extensions:
   - md_in_html
   - attr_list
   - abbr
+  - footnotes
 
 nav:
   - index.md
@@ -52,5 +53,3 @@ nav:
       - 10월:
           - 17일:
               - 게으름과 부지런함(Lazy vs Eager): 2022/10/17/01/README.md
-  - 2023:
-      - 1월
