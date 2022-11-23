@@ -1,5 +1,6 @@
 site_name: What I Learned Today
 site_description: 학습한 내용을 공유합니다.
+site_url: https://weekwith.me/
 
 theme:
   name: material
