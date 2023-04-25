@@ -50,7 +50,10 @@ markdown_extensions:
 
 nav:
   - index.md
-  - 2022:
+  - Article:
+    - 2022:
       - 10월:
           - 17일:
-              - 게으름과 부지런함(Lazy vs Eager): 2022/10/17/01/README.md
+              - 게으름과 부지런함(Lazy vs Eager): article/2022/10/17/01/README.md
+  - Logs:
+    - 2023:

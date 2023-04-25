@@ -6,7 +6,6 @@ site
 
 # Cache
 __pycache__
-Buffer/
 
 #Configuration
 .env
