@@ -53,7 +53,11 @@ nav:
   - Article:
     - 2022:
       - 10월:
-          - 17일:
-              - 게으름과 부지런함(Lazy vs Eager): article/2022/10/17/01/README.md
-  # - Logs:
-  #   - 2023:
+        - 17일:
+          - 게으름과 부지런함(Lazy vs Eager): article/2022/10/17/01/README.md
+  - Logs:
+    - 2023:
+      - 05월:
+        - 02일:
+          - <Google Cloud Skills Boost> Kubernetes in Google Cloud - 1: log/2023/05/02/README.md
+          
