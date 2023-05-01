@@ -2,12 +2,12 @@
 name = "TIL"
 version = "1"
 description = "What I Leaned Today"
-authors = ["0417taehyun <0417taehyun@gmail.com>"]
+authors = ["Taehyun Lee <0417taehyun@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.10"
-mkdocs-material = {git = "https://{GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git"}
+python = "^3.11"
+mkdocs-material = "^9.1.8"
 
 [tool.poetry.dev-dependencies]
 
