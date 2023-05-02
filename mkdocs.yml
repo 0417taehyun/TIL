@@ -58,6 +58,8 @@ nav:
   - Logs:
     - 2023:
       - 05월:
-        - 02일:
-          - <Google Cloud Skills Boost> Kubernetes in Google Cloud - 1: log/2023/05/02/README.md
+        - 03일:
+          - 네트워크 가상화 기술: log/2023/05/03/README.md      
+        - 05일:
+          - <Google Cloud Skills Boost> Kubernetes in Google Cloud: log/2023/05/05/README.md
           
